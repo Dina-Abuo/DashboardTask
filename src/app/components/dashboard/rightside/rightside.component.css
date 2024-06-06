@@ -1,17 +1,45 @@
 #myinput {
-    background: linear-gradient(to right, #FF7F5C 0%, #FF7F5C 50%, #fff 50%, #fff 100%);
-    border: solid 1px var(--color-orange);
-    border-radius: 8px;
-    height: 7px;
-    width: 356px;
-    outline: none;
-    transition: background 450ms ease-in;
-    -webkit-appearance: none;
-  }
-  input[type='range']::-webkit-slider-thumb {
-    width: 65px;
-    -webkit-appearance: none;
-    height: 4px;
-    background:transparent;
-    border-radius: 2px;
-  }
+  background: linear-gradient(to right, #FF7F5C 0%, #FF7F5C 50%, #f6dbd5 50%, #f6dbd5 100%);
+
+  border-radius: 8px;
+  height: 7px;
+  width: 250px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+#myinput3 {
+  background: linear-gradient(to right, #d5e7f6 0%, #d5e7f6 50%, #d5e7f6 50%, #d5e7f6 100%);
+
+  border-radius: 8px;
+  height: 7px;
+  width: 250px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+input[type='range']::-webkit-slider-thumb {
+  width: 65px;
+  -webkit-appearance: none;
+  height: 4px;
+  background: transparent;
+  border-radius: 2px;
+}
+
+.image-chart {
+  width: 300px;
+
+}
+
+h5 {
+  color: var( --color-dark-blue);
+}
+h6{
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--color-dark-blue);
+}
+.NM{
+  color: #d5e7f6;
+}
