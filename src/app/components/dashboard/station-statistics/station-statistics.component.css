@@ -1,0 +1,18 @@
+.card-statistic {
+    background-color: white;
+    border-radius: 15%;
+    width: 202px;
+    height: 168px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--color-dark-blue);
+}
+
+h6 {
+    height: 19%;
+    font-size: 15px;
+    color: var(--color-dark-blue);
+}

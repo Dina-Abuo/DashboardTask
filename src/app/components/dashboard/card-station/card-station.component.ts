@@ -16,8 +16,6 @@ export class CardStationComponent implements OnInit {
 
   getAllStation() {
     this.station.getAllStations().subscribe((res) => {
-
-      console.log ('dina', res)
       this.stations = res.station;
     });
   }

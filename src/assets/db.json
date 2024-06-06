@@ -36,5 +36,11 @@
       "maxTransaction": "20",
       "maxTransactionDateTime": "8-1-2021|10:16 PM"
     }
+  ],
+  "stationStatistics": [
+    { "title": "Total Value", "number": "71,028", "rete": "2" },
+    { "title": "Total Sales", "number": "20,000", "rete": "50" },
+    { "title": "Avg Sales", "number": "20,000", "rete": "50" },
+    { "title": "Total Transaction Count", "number": "1567", "rete": "20" }
   ]
 }

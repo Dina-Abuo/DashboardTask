@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { IStation } from '../models/istation';
+
 @Injectable({
   providedIn: 'root',
 })
@@ -11,4 +11,9 @@ export class StationService {
   getAllStations(): Observable<any> {
     return this.http.get<any>('assets/db.json');
   }
+  getAllStationStatistics(): Observable<any> {
+    return this.http.get<any>('assets/db.json');
+  }
+
+
 }

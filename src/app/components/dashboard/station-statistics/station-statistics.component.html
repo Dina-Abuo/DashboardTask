@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-between">
+    <div class="card-statistic p-4" *ngFor="let item of stationStatistics  let i=index">
+        <div class="d-flex  align-items-end">
+            <h2 class="me-2"> {{item.number}}</h2>
+            <P *ngIf="i+1===2 || i+1===3">m <sup>3</sup></P>
+            <P *ngIf="i+1===1">EGP</P>
+        </div>
+        <h6>{{item.title}}</h6>
+        <p [ngStyle]="{'color':(i+1)%2==0?'#00CBC0':'#FF7F5C'}" class="align-items-center">
+            <i class="fa-solid fa-sort-up" *ngIf="(i+1)%2==0"></i>
+            <i class="fa-solid fa-sort-down" *ngIf="(i+1)%2!=0"></i>
+            {{item.rete}}
+            <span *ngIf="i===0">%</span><span *ngIf="i==1 || i==2">m <sup>3</sup></span>
+        </p>
+    </div>
+</div>
