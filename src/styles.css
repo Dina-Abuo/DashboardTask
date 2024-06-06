@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  --color-orange: #FF7F5C;
+  --color-dark-blue: #3d5161
+}
+
+h2 {
+  color: #3d5161;
+
+}
+
+p {
+  color: #3D5161;
+}

@@ -1,0 +1,40 @@
+{
+  "station": [
+    {
+      "stationName": "STATION NAME DUMMY",
+      "totalSales": "62,721",
+      "totalValue": "550",
+      "compressionState": "Compression",
+      "totalTransactionCount": "5161",
+      "maxTransaction": "20",
+      "maxTransactionDateTime": "8-1-2021|10:16 PM"
+    },
+    {
+      "stationName": "STATION NAME DUMMY",
+      "totalSales": "62,721",
+      "totalValue": "550",
+      "compressionState": "Compression",
+      "totalTransactionCount": "5161",
+      "maxTransaction": "20",
+      "maxTransactionDateTime": "8-1-2021|10:16 PM"
+    },
+    {
+      "stationName": "STATION NAME DUMMY",
+      "totalSales": "62,721",
+      "totalValue": "550",
+      "compressionState": "Compression",
+      "totalTransactionCount": "5161",
+      "maxTransaction": "20",
+      "maxTransactionDateTime": "8-1-2021|10:16 PM"
+    },
+    {
+      "stationName": "STATION NAME DUMMY",
+      "totalSales": "62,721",
+      "totalValue": "550",
+      "compressionState": "Compression",
+      "totalTransactionCount": "5161",
+      "maxTransaction": "20",
+      "maxTransactionDateTime": "8-1-2021|10:16 PM"
+    }
+  ]
+}
