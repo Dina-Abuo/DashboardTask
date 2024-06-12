@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
@@ -11,6 +10,7 @@ import { RightSideComponent } from './components/dashboard/rightside/rightside.c
 import { CardStationComponent } from './components/dashboard/card-station/card-station.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StationStatisticsComponent } from './components/dashboard/station-statistics/station-statistics.component';
+import { GraphStationComponent } from './components/dashboard/graph-station/graph-station.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +21,7 @@ import { StationStatisticsComponent } from './components/dashboard/station-stati
     RightSideComponent,
     CardStationComponent,
     StationStatisticsComponent,
+    GraphStationComponent,
   ],
 
   imports: [
@@ -28,7 +29,7 @@ import { StationStatisticsComponent } from './components/dashboard/station-stati
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
