@@ -4,6 +4,7 @@ import { GraphStationComponent } from './components/dashboard/graph-station/grap
 import { CardStationComponent } from './components/dashboard/card-station/card-station.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'dashboard/graph-station', pathMatch: 'full' },
   { path: 'dashboard/graph-station', component: GraphStationComponent },
   { path: 'dashboard/list-station', component: CardStationComponent },
 ];
