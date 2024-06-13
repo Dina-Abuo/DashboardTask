@@ -1,12 +1,13 @@
-.station-card{
+.station-card {
     background-color: white;
     border-radius: 20px;
 }
 
 
-.title-card{
+.title-card {
     border-bottom: 1px solid #E0E7F1;
 }
+
 .title-card .station-name {
     position: relative;
     display: flex;
@@ -21,49 +22,14 @@
     border-radius: 50%;
     border: 5px solid var(--color-orange);
 }
-.station-name h6{
+
+.station-name h6 {
     font-size: 17px;
     font-weight: 500;
 }
-h6{
+
+h6 {
     font-size: 11px;
     font-weight: bold;
     color: var(--color-dark-blue);
 }
-p{
-    font-size: 13px;
-    color: var(--color-dark-blue);
-
-}
-
-
-.menu-days {
-    width: 17%;
-    height: 30px;
-    background:white;
-    border-radius: 30px;
-    opacity: 1;
-  }
-  
-  .menu-days ul {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  .menu-days ul li {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-self: center;
-  }
-  
-  .active {
-    background-color: var(--color-orange);
-    border-radius: 30px;
-    color: white;
-    padding: 0 10px;
-  }
-  

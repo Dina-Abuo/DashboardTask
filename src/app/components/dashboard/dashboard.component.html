@@ -6,8 +6,21 @@
             <div class="row m-0 justify-content-around mt-5">
                 <div class="col-8">
                     <app-station-statistics></app-station-statistics>
-                    <app-card-station></app-card-station>
-                    <app-graph-station></app-graph-station>
+                    <div class="d-flex justify-content-end mt-5">
+                        <div class="menu-station">
+                            <ul>
+                                <li>
+                                    <a class=" py-1 px-2 " routerLink="dashboard/graph-station" routerLinkActive="active"><i
+                                            class="fa-solid fa-chart-simple"></i> GRAPH</a>
+                                </li>
+                                <li>
+                                    <a class=" py-1 px-2 " routerLink="dashboard/list-station" routerLinkActive="active"><i
+                                            class="fa-solid fa-bars mx-2"></i> LIST</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <router-outlet></router-outlet>
                 </div>
                 <div class="col-3"> <app-rightside></app-rightside></div>
             </div>

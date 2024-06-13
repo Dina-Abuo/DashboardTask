@@ -1,0 +1,35 @@
+a {
+    font-size: 13px;
+    color: var(--color-dark-blue);
+    text-decoration: none;
+}
+
+
+.menu-station {
+    width: 16%;
+    height: 30px;
+    background: white;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.menu-station ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-station ul li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: center;
+}
+
+.active {
+    background-color: var(--color-orange);
+    border-radius: 30px;
+    color: white;
+}

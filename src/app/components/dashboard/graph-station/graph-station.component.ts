@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import Chart from 'chart.js/auto';
+import Chart, { CoreScaleOptions } from 'chart.js/auto';
 
 @Component({
   selector: 'app-graph-station',
@@ -15,7 +15,7 @@ export class GraphStationComponent implements OnInit {
 
   createChart() {
     this.chart = new Chart('LineChart', {
-      type: 'line',
+      type: 'bar',
       data: {
         labels: [
           'Station Name Dummy 1',
@@ -30,13 +30,38 @@ export class GraphStationComponent implements OnInit {
             backgroundColor: '#FF7F5C',
             borderColor: '#FF7F5C',
             borderWidth: 1,
-            pointRadius: 0,
-            borderJoinStyle: 'round',
-          }
+            barPercentage: 0.5,
+            barThickness: 6,
+            maxBarThickness: 8,
+            minBarLength: 2,
+          },
         ],
       },
       options: {
-        
+        aspectRatio: 5,
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              callback: function (
+                tickValue: string | number
+              ): string | number | null {
+                if (typeof tickValue === 'number') {
+                  if (tickValue === 0) return tickValue;
+                  if (tickValue === 100) return tickValue;
+                  if (tickValue > 100 && (tickValue - 100) % 50 === 0)
+                    return tickValue;
+                }
+                return null;
+              },
+            },
+          },
+        },
+        plugins: {
+          legend: {
+            display: false,
+          },
+        },
       },
     });
   }
